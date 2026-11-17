@@ -165,13 +165,6 @@ table.ov th{width:30%;color:var(--wine3);font-weight:700;background:var(--cream)
 .lc b{display:block;color:var(--wine2);font-size:15px;line-height:1.4;margin:2px 0}
 .lc p{font-size:13px;color:var(--muted)}
 
-/* 오시는 길 */
-.addr{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:16px}
-.ad{border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#fff}
-.ad .t{padding:14px}
-.ad b{display:block;color:var(--wine2);font-size:17px}
-.ad p{font-size:14px;color:var(--muted)}
-.ad a{display:inline-block;margin-top:6px;font-size:13px;color:var(--wine3);text-decoration:underline}
 
 /* 푸터 */
 footer{background:#17110e;color:#ada197;font-size:13px;padding:32px 0 40px;line-height:1.8}
@@ -220,7 +213,6 @@ footer button{background:none;border:0;color:var(--gold2);text-decoration:underl
   .locs{grid-template-columns:repeat(2,minmax(0,1fr))}
 }
 @media (max-width:640px){
-  .addr{grid-template-columns:minmax(0,1fr)}
   .gal2{grid-template-columns:minmax(0,1fr)}
   .stats{grid-template-columns:repeat(2,minmax(0,1fr))}
   .types{grid-template-columns:repeat(2,minmax(0,1fr))}
@@ -256,7 +248,6 @@ footer button{background:none;border:0;color:var(--gold2);text-decoration:underl
     <li><a href="#community">커뮤니티</a></li>
     <li><a href="#unit">평면안내</a></li>
     <li><a href="#location">입지환경</a></li>
-    <li><a href="#map">오시는 길</a></li>
     <li><a href="#reserve2">방문예약</a></li>
   </ul></nav>
 </header>
@@ -421,18 +412,6 @@ footer button{background:none;border:0;color:var(--gold2);text-decoration:underl
     </div>
     <div class="pic" style="margin-top:16px"><img src="img/traffic.jpg" alt="교통 이미지컷" width="1400" height="510" loading="lazy"></div>
     <p class="cap">※ 교통·개발계획은 관계기관 사정에 따라 변경되거나 지연될 수 있습니다. 주변 시설은 실제와 다를 수 있습니다.</p>
-  </div>
-</section>
-
-<section id="map">
-  <div class="wrap">
-    <p class="eyebrow">Location Map</p>
-    <h2>오시는 길</h2>
-    <p class="lead">마음이 쉬어가는 공간, 시간이 아름다워지는 길목에 초대합니다.</p>
-    <div class="addr">
-      <div class="ad"><img src="img/map_model.jpg" alt="견본주택 약도" width="600" height="460" loading="lazy"><div class="t"><b>견본주택</b><p>경기도 용인시 수지구 동천동 855<br>신분당선 동천역 2번 출구 도보 1분</p><a href="https://map.naver.com/p/search/%EC%9A%A9%EC%9D%B8%EC%8B%9C%20%EC%88%98%EC%A7%80%EA%B5%AC%20%EB%8F%99%EC%B2%9C%EB%8F%99%20855" target="_blank" rel="noopener">네이버 지도</a></div></div>
-      <div class="ad"><img src="img/map_promo.jpg" alt="홍보관 약도" width="600" height="459" loading="lazy"><div class="t"><b>홍보관 (프라이빗 설명회)</b><p>서울시 서초구 서초동 1544-3<br>2호선 서초역 2번 출구 인근</p><a href="https://map.naver.com/p/search/%EC%84%9C%EC%B4%88%EA%B5%AC%20%EC%84%9C%EC%B4%88%EB%8F%99%201544-3" target="_blank" rel="noopener">네이버 지도</a></div></div>
-    </div>
   </div>
 </section>
 
